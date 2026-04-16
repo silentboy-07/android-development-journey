@@ -41,6 +41,6 @@
   * `Row`
   * `Box`
 * Improved understanding of layout styling and spacing
-* Learned how modifiers control UI appearance and behavior
+* Learned how modifiers control UI appearance and behavior.
 
 
