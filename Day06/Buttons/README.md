@@ -71,4 +71,4 @@
 * Built multiple button examples
 * Learned click handling in Compose
 * Created a basic login UI with validation
-* Improved UI interaction skills
+* Improved UI interaction skills.
