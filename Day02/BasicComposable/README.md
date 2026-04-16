@@ -78,7 +78,7 @@
 * Built a simple UI with:
 
   * Text display
-  * Input fields with icons and styling
+  * Input fields with icons and styling.
 
 ---
 
