@@ -49,6 +49,6 @@
 
 * Built layouts using Row, Column, and Box
 * Improved understanding of UI alignment and spacing
-* Learned how to structure screens in Compose
+* Learned how to structure screens in Compose.
 
 
