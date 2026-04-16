@@ -42,7 +42,7 @@
 ### 💡 Solutions
 
 * Waited for Gradle sync to complete
-* Ensured virtualization is enabled for better emulator performance
+* Ensured virtualization is enabled for better emulator performance.
 
 ---
 
