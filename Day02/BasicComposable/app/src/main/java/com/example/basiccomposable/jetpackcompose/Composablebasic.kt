@@ -73,7 +73,7 @@ fun TextFieldExample() {
     )
 
 }
-@Preview(showSystemUi = true, showBackground = true)
+@Preview(showSystemUi = true , showBackground = true)
 @Composable
 fun OutlinedTextFieldExample() {
 
