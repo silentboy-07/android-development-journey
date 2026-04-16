@@ -58,5 +58,5 @@
 * Displayed a rounded image using `Image()`
 * Displayed a person icon using `Icon()`
 * Understood difference between pixel and vector images
-* Improved UI design skills with images and icons
+* Improved UI design skills with images and icons.
 
