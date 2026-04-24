@@ -66,3 +66,4 @@
 * Learned RecyclerView alternative in Compose
 * Practiced real-world list layouts
 * Improved UI design skills
+  
