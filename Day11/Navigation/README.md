@@ -53,3 +53,4 @@
 * Learned real app navigation flow
 * Improved project structure skills
 * Understood how modern Compose apps switch screens
+
