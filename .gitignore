@@ -1,6 +1,15 @@
+# Android Studio
 .idea/
 **/.idea/
 *.iml
-local.properties
+
+# Gradle
 .gradle/
-build/
+**/build/
+
+# Local config
+local.properties
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
