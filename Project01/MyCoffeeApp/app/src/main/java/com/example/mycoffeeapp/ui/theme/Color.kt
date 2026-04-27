@@ -11,7 +11,6 @@ val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
 // My Colors
-val CoffeeBrown = Color(0xFFC47B4D)
 val CreamBeige = Color(0xFFEBD4C6)
 val CharcoalGray = Color(0xFF313131)
 val LightGray = Color(0xFFE1E1E1)
