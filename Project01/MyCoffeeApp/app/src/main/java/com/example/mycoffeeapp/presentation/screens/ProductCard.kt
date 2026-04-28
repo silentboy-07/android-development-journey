@@ -1,4 +1,4 @@
-package com.example.mycoffeeapp.screens
+package com.example.mycoffeeapp.presentation.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -20,7 +20,6 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.MaterialTheme.typography
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -36,9 +35,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.example.mycoffeeapp.R
-import com.example.mycoffeeapp.model.Product
-import com.example.mycoffeeapp.ui.theme.IvoryWhite
-import com.example.mycoffeeapp.ui.theme.LightBrown
+import com.example.mycoffeeapp.domain.model.Product
+import com.example.mycoffeeapp.presentation.theme.IvoryWhite
+import com.example.mycoffeeapp.presentation.theme.LightBrown
 
 @Composable
 fun ProductCard(
