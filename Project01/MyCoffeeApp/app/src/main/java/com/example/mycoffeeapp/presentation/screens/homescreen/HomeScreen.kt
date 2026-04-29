@@ -26,18 +26,18 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.example.mycoffeeapp.R
 import com.example.mycoffeeapp.domain.model.Product
 import com.example.mycoffeeapp.presentation.ui_components.MyBottomNavBar
 
-@Preview(showBackground = true, showSystemUi = true)
 @Composable
-fun HomeScreen() {
+fun HomeScreen(navController: NavController) {
 
     val location = "Rajkot, Gujarat"
 
     Scaffold(
-        bottomBar = { MyBottomNavBar()}
+        bottomBar = { MyBottomNavBar(navController, "Home")}
     ) {innerPadding->
         Box(modifier = Modifier
             .fillMaxWidth()
@@ -71,7 +71,7 @@ fun HomeScreen() {
                 Product(id = 7, name = "Flat White", description = "Velvety Smooth", price = 4.30, imageRes = R.drawable.coffee_7),
                 Product(id = 8, name = "Cold Brew", description = "Chilled and Refreshing", price = 4.60, imageRes = R.drawable.coffee_8)
             )
-            ProductsGrid(products = products) {
+            ProductsGrid(products = products, navController = navController) {
 
                 Text(text = "Location",
                     color = Color.Gray,
