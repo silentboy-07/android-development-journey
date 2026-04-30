@@ -59,7 +59,7 @@ fun CartScreen(navController: NavController) {
     var totalAmount by remember { mutableStateOf(amount + deliveryFee) }
 
     Scaffold(
-        topBar = { CartScreenTopBar(navController) },
+        topBar = { CartScreenTopBar() },
         bottomBar = { MyBottomNavBar(navController = navController, "Cart") }
     ) { innerPadding ->
         LazyColumn(
