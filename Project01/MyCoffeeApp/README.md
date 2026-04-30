@@ -40,16 +40,32 @@ This project is built to:
 
 ## 📸 Screenshots
 
-<table align="center">
+<table align="center" cellspacing="10">
   <tr>
-    <td><img src="Project01/MyCoffeeApp/Screenshorts/WelcomeScreen.png" width="180"/></td>
-    <td><img src="Project01/MyCoffeeApp/Screenshorts/HomeScreen.png" width="180"/></td>
-    <td><img src="Project01/MyCoffeeApp/Screenshorts/ProductDetailsScreen.png" width="180"/></td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/silentboy-07/android-development-journey/main/Project01/MyCoffeeApp/Screenshorts/WelcomeScreen.png" width="180"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/silentboy-07/android-development-journey/main/Project01/MyCoffeeApp/Screenshorts/HomeScreen.png" width="180"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/silentboy-07/android-development-journey/main/Project01/MyCoffeeApp/Screenshorts/ProductDetailsScreen.png" width="180"/>
+    </td>
   </tr>
+
+  <!-- Space between rows -->
+  <tr><td colspan="3" height="20"></td></tr>
+
   <tr>
-    <td><img src="Project01/MyCoffeeApp/Screenshorts/OrderDetailsScreen.png" width="180"/></td>
-    <td><img src="Project01/MyCoffeeApp/Screenshorts/FavouriteScreen.png" width="180"/></td>
-    <td><img src="Project01/MyCoffeeApp/Screenshorts/ProfileScreen.png" width="180"/></td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/silentboy-07/android-development-journey/main/Project01/MyCoffeeApp/Screenshorts/OrderDetailsScreen.png" width="180"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/silentboy-07/android-development-journey/main/Project01/MyCoffeeApp/Screenshorts/FavouriteScreen.png" width="180"/>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/silentboy-07/android-development-journey/main/Project01/MyCoffeeApp/Screenshorts/ProfileScreen.png" width="180"/>
+    </td>
   </tr>
 </table>
 ---
