@@ -42,14 +42,14 @@ This project is built to:
 
 <table align="center">
   <tr>
-    <td><img src="screenshots/welcome.png" width="180"/></td>
-    <td><img src="screenshots/home.png" width="180"/></td>
-    <td><img src="screenshots/detail.png" width="180"/></td>
+    <td><img src="Project01/MyCoffeeApp/Screenshorts/WelcomeScreen.png" width="180"/></td>
+    <td><img src="Project01/MyCoffeeApp/Screenshorts/HomeScreen.png" width="180"/></td>
+    <td><img src="Project01/MyCoffeeApp/Screenshorts/ProductDetailsScreen.png" width="180"/></td>
   </tr>
   <tr>
-    <td><img src="screenshots/cart.png" width="180"/></td>
-    <td><img src="screenshots/profile.png" width="180"/></td>
-    <td><img src="screenshots/extra.png" width="180"/></td>
+    <td><img src="Project01/MyCoffeeApp/Screenshorts/OrderDetailsScreen.png" width="180"/></td>
+    <td><img src="Project01/MyCoffeeApp/Screenshorts/FavouriteScreen.png" width="180"/></td>
+    <td><img src="Project01/MyCoffeeApp/Screenshorts/ProfileScreen.png" width="180"/></td>
   </tr>
 </table>
 ---
