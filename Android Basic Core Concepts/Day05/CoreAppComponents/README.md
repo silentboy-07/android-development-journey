@@ -1,7 +1,6 @@
 # 📱 Day 05 — 4 Core Android App Components
 
 > **Learning Android Development — Day by Day**
-> ← [Day 04 — Tasks & Back Stack](./Day-04-Android-Tasks-BackStack.md)
 
 ---
 
@@ -458,16 +457,5 @@ Returns media data securely
 | Main purpose | Show screens | Background work | React to events | Share data |
 
 ---
-
-## 🔗 What's Next?
-
-- [ ] Day 06 — Fragments (mini-screens inside an Activity)
-- [ ] Day 07 — RecyclerView (scrollable lists)
-- [ ] Day 08 — Navigation Component (Jetpack navigation)
-- [ ] Day 09 — Retrofit (networking / calling APIs)
-
----
-
-> **Previous:** [Day 04 — Tasks & Back Stack](./Day-04-Android-Tasks-BackStack.md)
 
 *📚 Learning Android step by step. Follow along if you're learning too!*
