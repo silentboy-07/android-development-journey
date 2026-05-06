@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SplashScreen" parent="android:Theme.Material.Light.NoActionBar" />
+<!--    Transparent launch theme to remove default splash screen-->
+    <style name="Theme.Transparent" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+<!--    Splash Screen API-->
+   <style name="Theme.MySplashScreen." parent="Theme.SplashScreen">
+       <item name="windowSplashScreenBackground">@color/white</item>
+       <item name="windowSplashScreenAnimatedIcon">@drawable/v_logo</item>
+       <item name="postSplashScreenTheme">@style/Theme.SplashScreen</item>
+   </style>
+</resources>
