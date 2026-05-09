@@ -24,7 +24,7 @@ If the freeze lasts more than **5 seconds**, Android shows an **ANR (App Not Res
 
 ---
 
-## 💡 What Are Coroutines?
+## 💡 What Are Coroutines? 
 
 Coroutines are Kotlin's way to write **asynchronous code that looks synchronous**. They let you run slow tasks on background threads and then come back to update the UI — all in clean, readable, straight-line code.
 
