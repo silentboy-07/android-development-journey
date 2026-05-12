@@ -22,7 +22,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.todoapp.data.room_database.TaskItem
@@ -40,7 +39,7 @@ fun TaskEditorDialog(task: TaskItem?,
 
     ModalBottomSheet(
         onDismissRequest = onCancel,
-        containerColor = Color.White
+        containerColor = Color(0xFFE8DED1)
     ) {
         Column(
             modifier = Modifier.fillMaxWidth()
@@ -60,7 +59,7 @@ fun TaskEditorDialog(task: TaskItem?,
                 value = taskName,
                 onValueChange = {taskName = it},
                 modifier = Modifier.fillMaxWidth(),
-                placeholder = {Text(text = "What's needs to be done?")},
+                placeholder = {Text(text = "What's needs to be done?", color = grey)},
                 colors = OutlinedTextFieldDefaults.colors(
                     focusedBorderColor = darkGrey,
                     unfocusedBorderColor = grey
@@ -76,7 +75,7 @@ fun TaskEditorDialog(task: TaskItem?,
                 .height(52.dp),
                 shape = RoundedCornerShape(16.dp),
                 colors = ButtonDefaults.buttonColors(
-                    containerColor = darkGrey
+                    containerColor = Color(0xFF8B5E3C)
                 ),
                 enabled = taskName.isNotBlank()
             ) {
@@ -84,5 +83,5 @@ fun TaskEditorDialog(task: TaskItem?,
             }
         }
     }
-    
+
 }

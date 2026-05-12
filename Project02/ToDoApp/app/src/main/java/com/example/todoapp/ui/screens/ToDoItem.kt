@@ -10,11 +10,8 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
-import androidx.compose.material.icons.filled.Circle
-import androidx.compose.material.icons.filled.CircleNotifications
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Edit
-import androidx.compose.material.icons.filled.RadioButtonChecked
 import androidx.compose.material.icons.filled.RadioButtonUnchecked
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -25,7 +22,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
@@ -41,13 +37,13 @@ fun ToDoItem(
     onDeleteClick: () -> Unit,
     onCheckChange: (Boolean) -> Unit
 ) {
-
     Card(
         modifier = Modifier.fillMaxWidth(),
         shape = RoundedCornerShape(24.dp),
         colors = CardDefaults.cardColors(
-            containerColor = if (item.isDone) Color.LightGray.copy(alpha = 0.5f) else Color.White
+            containerColor = if (item.isDone) Color(0xFFD6CCC2) else Color.White
         ),
+        elevation = CardDefaults.cardElevation(6.dp),
         border = BorderStroke(1.dp, grey)
     ) {
         Row(
@@ -62,7 +58,7 @@ fun ToDoItem(
                     imageVector = if (item.isDone) Icons.Filled.CheckCircle
                     else Icons.Default.RadioButtonUnchecked,
                     contentDescription = null,
-                    tint = if(item.isDone) darkGrey.copy(alpha = 0.8f) else grey
+                    tint = if(item.isDone) Color(0xFF8B5E3C) else grey
                 )
             }
             Spacer(modifier = Modifier.width(8.dp))
@@ -74,27 +70,22 @@ fun ToDoItem(
                 color = if (item.isDone) grey else darkGrey,
                 textDecoration = if (item.isDone) TextDecoration.LineThrough else null
                 )
-
-            Row() {
+            Row {
                 IconButton(onClick = onEditClick ) {
                     Icon(imageVector = Icons.Default.Edit,
                         contentDescription = "Edit Task",
-                        tint = grey,
+                        tint = Color(0xFF8B5E3C),
                         modifier = Modifier.size(24.dp)
                         )
                 }
-
                 IconButton(onClick = onDeleteClick) {
                     Icon(imageVector = Icons.Default.Delete,
                         contentDescription = "Delete Task",
-                        tint = grey,
+                        tint = Color(0xFF8B5E3C),
                         modifier = Modifier.size(24.dp)
                     )
                 }
             }
         }
-
-
     }
-
 }

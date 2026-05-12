@@ -1,5 +1,6 @@
 package com.example.todoapp.ui.screens
 
+import android.provider.CalendarContract
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -45,6 +46,7 @@ fun ToDoListScreen(viewModel: TaskViewModel) {
     var showEditorDialog by remember { mutableStateOf(false) }
 
     Scaffold(
+        containerColor = Color(0xFFF5E6D3),
         floatingActionButton = {
             ExtendedFloatingActionButton(
                 onClick = {
@@ -52,7 +54,7 @@ fun ToDoListScreen(viewModel: TaskViewModel) {
                     showEditorDialog = true
                 },
                 shape = RoundedCornerShape(20.dp),
-                containerColor = darkGrey,
+                containerColor = Color(0xFF8B5E3C),
                 contentColor = Color.White,
                 elevation = FloatingActionButtonDefaults.elevation(8.dp)
             ) {
