@@ -60,11 +60,15 @@ dependencies {
 
     // For Room
     implementation("androidx.room:room-runtime:2.8.4")
-    ksp("androidx.room:room-compiler:2.5.0")
+    ksp("androidx.room:room-compiler:2.8.4")
 
     // For Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
 
     // For Extra Icons
     implementation("androidx.compose.material:material-icons-extended")
+
+    // splash screen
+    implementation("androidx.core:core-splashscreen:1.0.0")
+
 }
