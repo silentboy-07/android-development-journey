@@ -1,4 +1,4 @@
-# 📱 Day 11 — ToDoApp Complete: UI, Jetpack Compose, Full MVVM App
+# 📱 ToDoApp Complete: UI, Jetpack Compose, Full MVVM App
  
 > **Learning Android Development — Day by Day**
  
@@ -13,19 +13,19 @@ Today we finished the **ToDoApp** — our first full Android project built from 
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/ss1.png" width="180" style="margin: 8px;" />
+  <img src="Project02/ToDoApp/Screenshorts/SplashScreen.png" width="180" style="margin: 8px;" />
   &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/ss2.png" width="180" style="margin: 8px;" />
+  <img src="Project02/ToDoApp/Screenshorts/HomeScreen.png" width="180" style="margin: 8px;" />
   &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/ss3.png" width="180" style="margin: 8px;" />
+  <img src="Project02/ToDoApp/Screenshorts/CreateTaskScreen.png" width="180" style="margin: 8px;" />
 </p>
 
 <p align="center">
-  <img src="screenshots/ss4.png" width="180" style="margin: 8px;" />
+  <img src="Project02/ToDoApp/Screenshorts/TaskScreen.png" width="180" style="margin: 8px;" />
   &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/ss5.png" width="180" style="margin: 8px;" />
+  <img src="Project02/ToDoApp/Screenshorts/TaskCompleted.png" width="180" style="margin: 8px;" />
   &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/ss6.png" width="180" style="margin: 8px;" />
+  <img src="Project02/ToDoApp/Screenshorts/UpdateTask.png" width="180" style="margin: 8px;" />
 </p>
 
 ---
