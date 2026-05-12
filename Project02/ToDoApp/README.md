@@ -4,7 +4,7 @@
  
 ---
  
-## 🎉 Project Complete!
+## 🎉 Project-02 Completed!
  
 Today we finished the **ToDoApp** — our first full Android project built from scratch using everything learned so far. The app is fully working with a beautiful UI, persistent local storage, and clean MVVM architecture.
  
@@ -13,19 +13,19 @@ Today we finished the **ToDoApp** — our first full Android project built from 
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="Project02/ToDoApp/Screenshorts/SplashScreen.png" width="180" style="margin: 8px;" />
+  <img src="https://raw.githubusercontent.com/silentboy-07/android-development-journey/main/Project02/ToDoApp/Screenshorts/SplashScreen.png" width="180" style="margin: 8px;" />
   &nbsp;&nbsp;&nbsp;
-  <img src="Project02/ToDoApp/Screenshorts/HomeScreen.png" width="180" style="margin: 8px;" />
+  <img src="https://raw.githubusercontent.com/silentboy-07/android-development-journey/main/Project02/ToDoApp/Screenshorts/HomeScreen.png" width="180" style="margin: 8px;" />
   &nbsp;&nbsp;&nbsp;
-  <img src="Project02/ToDoApp/Screenshorts/CreateTaskScreen.png" width="180" style="margin: 8px;" />
+  <img src="https://raw.githubusercontent.com/silentboy-07/android-development-journey/main/Project02/ToDoApp/Screenshorts/CreateTaskScreen.png" width="180" style="margin: 8px;" />
 </p>
 
 <p align="center">
-  <img src="Project02/ToDoApp/Screenshorts/TaskScreen.png" width="180" style="margin: 8px;" />
+  <img src="https://raw.githubusercontent.com/silentboy-07/android-development-journey/main/Project02/ToDoApp/Screenshorts/TaskScreen.png" width="180" style="margin: 8px;" />
   &nbsp;&nbsp;&nbsp;
-  <img src="Project02/ToDoApp/Screenshorts/TaskCompleted.png" width="180" style="margin: 8px;" />
+  <img src="https://raw.githubusercontent.com/silentboy-07/android-development-journey/main/Project02/ToDoApp/Screenshorts/TaskCompleted.png" width="180" style="margin: 8px;" />
   &nbsp;&nbsp;&nbsp;
-  <img src="Project02/ToDoApp/Screenshorts/UpdateTask.png" width="180" style="margin: 8px;" />
+  <img src="https://raw.githubusercontent.com/silentboy-07/android-development-journey/main/Project02/ToDoApp/Screenshorts/UpdateTask.png" width="180" style="margin: 8px;" />
 </p>
 
 ---
